@@ -70,3 +70,17 @@ a transcription and an embedded authoritative 625 appearance reference.
 At the user’s request, the current guide renders the tubes black on a light
 background. The source drawing specifies White. This rendering override does
 not change tube dimensions, quantities, connectors or accessory specifications.
+
+## 913 mallet demonstration
+
+The Base bones stage opens a close-up of a supported #805 tube, with a
+schematic 913 nylon mallet tapping each connector into position. Choose any
+of the five bones to see the appropriate 4T or 5T connectors. Pause/replay
+the tapping, orbit/zoom, or disable the close-up to return to the full frame.
+The main sequence spends twelve seconds on this step. The demonstration
+respects reduced-motion preferences and supplies an explicit Resume control.
+
+Tool identity and silhouette come from the manufacturer assembly PDF, page 1;
+the supported-bone procedure is on page 2. The tool dimensions, insertion
+depth, travel, speed and support-block proportions are unmeasured visual
+aids, not force or fit specifications. Actual frame geometry/BOM is unchanged.
