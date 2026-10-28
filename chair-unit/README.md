@@ -16,7 +16,7 @@ npm start
 ```
 
 Open `/software/chair-unit/` on the server at port 8084. Drag to rotate, wheel
-to zoom, use Next/Previous or arrow keys, or Play sequence. Thirteen stages
+to zoom, use Next/Previous or arrow keys, or Play sequence. Fourteen stages
 show the four horizontal ladders, three upright tiers, short legs, adjustable
 feet and accessory instructions. Show remaining frame and connector colors
 are optional. The parts dialog exports the JSON model and BOM.
@@ -97,3 +97,17 @@ connectors are shown on the wooden block, their prong directions rotate into
 matching alignment, and the view holds for a check. No mallet is shown or
 operated during alignment. The existing supported, upright seating sequence
 then follows. Replay returns to alignment, not straight to hammering.
+
+The alignment rest pose now rolls each connector onto two prongs (a 45-degree
+roll for the modeled orthogonal prongs). Height is derived from the rendered
+shoulder/prong envelopes so neither tip passes into the block. Both connectors
+share the matching roll, retained for seating. A completed bone can be rotated
+as a unit into its required ladder orientation. This is a visual support pose,
+not a gravity, friction or impact-force simulation. Frame geometry/BOM remain
+unchanged.
+
+A dedicated “Bones & connectors” explanation precedes “Base bones.” It is a
+static exploded view with a separate tube and two connectors, the definition
+of a bone, matching prong direction, two-prong wood-block alignment and
+partial-before-full seating. No hammer animation occurs in this explanation.
+The following step retains the interactive alignment-and-mallet sequence.
