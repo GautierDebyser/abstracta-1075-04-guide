@@ -64,3 +64,9 @@ Tube wall thickness, exact casting dimensions, connector insertion depths,
 705 installed height and mechanical tolerances are unknown. No manufacturing
 accuracy or structural approval is claimed. The Drawing notes dialog contains
 a transcription and an embedded authoritative 625 appearance reference.
+
+## View appearance update
+
+At the user’s request, the current guide renders the tubes black on a light
+background. The source drawing specifies White. This rendering override does
+not change tube dimensions, quantities, connectors or accessory specifications.
