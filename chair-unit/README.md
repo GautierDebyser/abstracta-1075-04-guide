@@ -70,3 +70,8 @@ a transcription and an embedded authoritative 625 appearance reference.
 At the user’s request, the current guide renders the tubes black on a light
 background. The source drawing specifies White. This rendering override does
 not change tube dimensions, quantities, connectors or accessory specifications.
+
+Connector identification now uses vivid unlit colors and constant-screen-size
+3T/4T/5T labels. These are visual annotations, not enlarged physical connectors.
+The Connector colors & labels control hides the annotations. Geometry and BOM
+are unchanged.
