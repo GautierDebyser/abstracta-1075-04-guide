@@ -120,3 +120,16 @@ tubes and seats the outer bone with the 913 mallet, then slides the other six
 tubes and three remaining bones into place. Tube meshes are translated, never
 shortened or scaled to fake an insertion. This is an explanatory sequence;
 physical supports, force and insertion travel require manufacturer guidance.
+
+“Fit the first ten uprights” now lowers the actual ten full-length #1000 tube
+meshes one at a time onto the base prongs. Pause/Replay controls and a seated
+count are included. Future frame parts are hidden during this insertion view.
+Mesh lengths and X/Z alignment are unchanged; only vertical translation is
+animated, ending at the geometry’s exact flush shoulder position. The shown
+approach/seating travel is illustrative, not measured insertion depth.
+
+The first-uprights animation uses the shared photo-based 913 mallet for the
+first two tubes only. Their approach is followed by gentle seating taps. The
+remaining eight tubes slide in; the camera widens to show the full set.
+Tool contact follows the current upper tube end, and all tubes end at their
+unchanged final graph positions.
