@@ -16,7 +16,7 @@ npm start
 ```
 
 Open `/software/chair-unit/` on the server at port 8084. Drag to rotate, wheel
-to zoom, use Next/Previous or arrow keys, or Play sequence. Fourteen stages
+to zoom, use Next/Previous or arrow keys, or Play sequence. Fifteen stages
 show the four horizontal ladders, three upright tiers, short legs, adjustable
 feet and accessory instructions. Show remaining frame and connector colors
 are optional. The parts dialog exports the JSON model and BOM.
@@ -80,7 +80,8 @@ the tapping, orbit/zoom, or disable the close-up to return to the full frame.
 The main sequence spends sixteen seconds on this step. The demonstration
 respects reduced-motion preferences and supplies an explicit Resume control.
 
-Tool identity and silhouette come from the manufacturer assembly PDF, page 1;
+Tool identity is documented in the manufacturer assembly PDF, page 1;
+appearance follows the user-supplied 913 photo;
 the supported-bone procedure is on page 2. The tool dimensions, insertion
 depth, travel, speed and support-block proportions are unmeasured visual
 aids, not force or fit specifications. Actual frame geometry/BOM is unchanged.
@@ -89,8 +90,9 @@ The support layout is corrected to end-on: the lower connector shoulder rests
 on the top of a wood block, the tube stands upright, and the mallet approaches
 the upper connector from above. The bone turns end-for-end for the second
 end. The block is no longer under the middle of a horizontal tube.
-The separate uploaded 913 photograph is not available in the checkout/chat
-attachments; the existing catalog-based schematic remains pending that image.
+The user-supplied 913 photo now guides the appearance: tapered wooden handle
+with fluted grip, gray barrel, brown cap and white nylon striking face. Exact
+tool dimensions remain unmeasured.
 
 The bone close-up now begins with a four-second alignment stage: both
 connectors are shown on the wooden block, their prong directions rotate into
@@ -111,3 +113,10 @@ static exploded view with a separate tube and two connectors, the definition
 of a bone, matching prong direction, two-prong wood-block alignment and
 partial-before-full seating. No hammer animation occurs in this explanation.
 The following step retains the interactive alignment-and-mallet sequence.
+
+After the bone sequence, a dedicated step shows only five completed bones.
+The following ladder animation inserts the first two full-length #805 joining
+tubes and seats the outer bone with the 913 mallet, then slides the other six
+tubes and three remaining bones into place. Tube meshes are translated, never
+shortened or scaled to fake an insertion. This is an explanatory sequence;
+physical supports, force and insertion travel require manufacturer guidance.
