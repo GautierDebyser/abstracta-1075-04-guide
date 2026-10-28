@@ -133,3 +133,17 @@ first two tubes only. Their approach is followed by gentle seating taps. The
 remaining eight tubes slide in; the camera widens to show the full set.
 Tool contact follows the current upper tube end, and all tubes end at their
 unchanged final graph positions.
+
+Step 13 now demonstrates two pictured adjustable feet translating up into the
+open leg tube bottoms. Only the ribbed insert enters: its flange top stops
+flush at the tube mouth, leaving the gray collar, thread and black pad exposed.
+The rendered short tubes have a schematic open bore; actual wall thickness
+and press-fit clearance are unmeasured. The full-frame view is raised by the
+illustrative exposed foot height to keep the pads above the floor. The close-up
+shows it additionally lifted for supported access, not free-standing in midair.
+
+The user names the pictured part 3705; the supplied drawing lists 705. The
+drawing BOM remains unchanged pending supplier confirmation of that ordering
+code. The photo controls appearance and the user-specified collar stop, while
+all unmeasured dimensions and adjustment extension remain schematic. No
+hammer is shown or used in this foot installation step.
