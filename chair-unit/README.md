@@ -84,3 +84,10 @@ Tool identity and silhouette come from the manufacturer assembly PDF, page 1;
 the supported-bone procedure is on page 2. The tool dimensions, insertion
 depth, travel, speed and support-block proportions are unmeasured visual
 aids, not force or fit specifications. Actual frame geometry/BOM is unchanged.
+
+The support layout is corrected to end-on: the lower connector shoulder rests
+on the top of a wood block, the tube stands upright, and the mallet approaches
+the upper connector from above. The bone turns end-for-end for the second
+end. The block is no longer under the middle of a horizontal tube.
+The separate uploaded 913 photograph is not available in the checkout/chat
+attachments; the existing catalog-based schematic remains pending that image.
