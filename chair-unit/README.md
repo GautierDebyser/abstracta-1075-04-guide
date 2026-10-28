@@ -77,7 +77,7 @@ The Base bones stage opens a close-up of a supported #805 tube, with a
 schematic 913 nylon mallet tapping each connector into position. Choose any
 of the five bones to see the appropriate 4T or 5T connectors. Pause/replay
 the tapping, orbit/zoom, or disable the close-up to return to the full frame.
-The main sequence spends twelve seconds on this step. The demonstration
+The main sequence spends sixteen seconds on this step. The demonstration
 respects reduced-motion preferences and supplies an explicit Resume control.
 
 Tool identity and silhouette come from the manufacturer assembly PDF, page 1;
@@ -91,3 +91,9 @@ the upper connector from above. The bone turns end-for-end for the second
 end. The block is no longer under the middle of a horizontal tube.
 The separate uploaded 913 photograph is not available in the checkout/chat
 attachments; the existing catalog-based schematic remains pending that image.
+
+The bone close-up now begins with a four-second alignment stage: both
+connectors are shown on the wooden block, their prong directions rotate into
+matching alignment, and the view holds for a check. No mallet is shown or
+operated during alignment. The existing supported, upright seating sequence
+then follows. Replay returns to alignment, not straight to hammering.
