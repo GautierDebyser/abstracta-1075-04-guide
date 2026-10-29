@@ -40,3 +40,7 @@ npm run export --prefix Abstracta_Codex_Project/software/1075-07-mod3
 ```
 
 The completed screenshot is `assembly-guide/1075-07-mod3.png`; JSON is `assembly-guide/1075-07-mod3-model-and-bom.json`. Source drawing was supplied in chat: #1075-07 Mod 3, Barbara McFadyen Jewelry, 10/1/26, Matte Black, Glass. Component references and manufacturer PDFs remain in the project reference directories.
+
+## Clear-glass appearance
+
+Glass uses the reusable `../shared/glass.js` component: highly transparent neutral faces, aqua-green cut edges, polished-edge highlights, a soft studio reflection environment, and faint contact occlusion located at the actual vinyl bumper centers. Works with supplied 620 or 625 support coordinates. Contact shading is hidden while glass is above its supports. Shelf dimensions and bracket transforms are unchanged. The optical material reference is 1/4 inch; the existing 4 mm mesh thickness is deliberately preserved pending a separate geometry correction.
