@@ -16,7 +16,7 @@ Or open `assembly-guide/1075-07-mod3.html` from the repository root in a browser
 
 ## Controls
 
-Drag to orbit; scroll to zoom; right-drag to pan. Use 3D/front/side/plan presets, numbered steps, pause/resume/replay, bone selection, connector colors, and glass visibility. Play sequence advances through the guide; use Next/Previous to move manually. Reduced-motion preference starts individual demonstrations paused. Download model/BOM JSON from Parts list.
+Drag to orbit; scroll to zoom; right-drag to pan. Use 3D/front/side/plan presets, numbered steps, pause/resume/replay, bone selection, connector colors, and glass visibility. Play full sequence explicitly starts automatic advancement; use Next/Previous to move manually. All selected demonstrations start paused, including with reduced-motion preference. Download model/BOM JSON from Parts list.
 
 ## Quantities and corrections
 
@@ -44,3 +44,21 @@ The completed screenshot is `assembly-guide/1075-07-mod3.png`; JSON is `assembly
 ## Clear-glass appearance
 
 Glass uses the reusable `../shared/glass.js` component: highly transparent neutral faces, aqua-green cut edges, polished-edge highlights, a soft studio reflection environment, and faint contact occlusion located at the actual vinyl bumper centers. Works with supplied 620 or 625 support coordinates. Contact shading is hidden while glass is above its supports. Shelf dimensions and bracket transforms are unchanged. The optical material reference is 1/4 inch; the existing 4 mm mesh thickness is deliberately preserved pending a separate geometry correction.
+
+## Revision 2 — October 29, 2026
+
+The instruction panel sits beside the model on desktop; compact stacked panels and visible transport/navigation serve mobile. Each selected step starts paused. Start this step, Pause/Resume, Replay, ¼×/½×/1×/1½× speeds, and a labeled timeline control deterministic playback; only Play full sequence advances automatically. Seeking stops the sequence. Completion checks remain selected when navigating within the page.
+
+Seven base bones A–G are linked to a clickable plan, connector/end descriptions and an arrow-labeled orientation close-up. The six paired ladder joins move receiving bones or connected sections rigidly, rather than translating tubes between two fixed joints. The first A/B pair is progressively seated with the mallet. Illustrative wood supports touch the lower frame during leg/foot installation and leave the leg insertions accessible.
+
+The 620 step retains the fixed camera and exact hardware positions, fades unrelated frame members, numbers the four target corners, and shows the reference image. Four clips install individually, then all other clips install together. The current parts list leads with Revision 2 quantities; original values and history remain in Drawing notes. Print checklist produces current parts, the A–G plan, and all stage checks; a PDF is included in the review package.
+
+Manufacturer cross-check: the supplied September 2025 assembly instructions, steps 2–8, support bones/ladders, grouped progressive seating, legs last, feet after hammering, and clips/bumpers before glass. The particular six-group L sequence and illustrative support setup are not manufacturer-verified. Confirm actual working orientation, support provisions and insertion tolerances with the supplier. This guide does not establish a load rating or structural approval.
+
+Geometry/BOM regression compares nodes, edges, feet, shelves, bracket records and layout coordinates against the saved pre-upgrade model. Existing clear-glass material and **4 mm mesh thickness** are preserved. This revision changes presentation and motion, not manufacturing dimensions.
+
+## Revision 2 validation
+
+Sixteen Node tests pass, including playback idle/reset, individual versus sequence advancement, pause/speed/seek, rigid receiving-group motion, all pair connections, and saved-model geometry/BOM invariance. Browser review covers all fourteen steps, all seven bones, controls and scrubbing, illustrative supports, fixed camera for four then seventy-two clips, print PDF, persisted checks, 1440×900 desktop and 390×844 / 320×568 mobile layouts, reduced motion, source and standalone loading. No browser errors were observed.
+
+For repeatable browser checks, install Playwright/Chromium in the execution environment, serve the repository root on port 8095 (`python3 -m http.server 8095 --bind 127.0.0.1`), and run `npm run test:browser --prefix Abstracta_Codex_Project/software/1075-07-mod3`. Set `MOD3_REVIEW_BASE` to use a different server. The script expects Chromium at `/usr/bin/chromium`.
